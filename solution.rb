@@ -5,5 +5,5 @@ get '/' do
 end
 
 post '/saludo-inicial' do
-  "Hola #{params[:name].capitalize}"
+  "Hola #{params[:name]}"
 end
